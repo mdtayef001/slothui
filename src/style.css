@@ -46,7 +46,22 @@
 .flex {
   display: flex;
 }
-
+.container {
+  padding-top: 96px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.section_headeing {
+  background: #eef2ff;
+  color: #4f46e5;
+  padding: 6px 12px;
+  border-radius: 20px;
+  width: 189px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
 /* nav section */
 
 header {
@@ -115,4 +130,39 @@ header {
   gap: 8px;
   align-items: center;
   justify-items: center;
+}
+
+/* hero section */
+.hero_container {
+  background-image: url("../public/hero_bg.jpg");
+  background-repeat: no-repeat;
+}
+
+.hero_text {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.hero_tile {
+  font-weight: 800;
+  font-size: 60px;
+  color: #1e293b;
+  padding: 24px 0;
+}
+.hero_subtile {
+  font-weight: 400;
+  font-size: 18px;
+  color: #475569;
+  margin-bottom: 48px;
+}
+
+.donwlad_links {
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+
+.google,
+.apple {
+  width: 132px;
 }
